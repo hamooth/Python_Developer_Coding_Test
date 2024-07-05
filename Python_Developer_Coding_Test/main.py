@@ -9,7 +9,7 @@ def squares_of_even_numbers(numbers: list) -> list:
     return [x ** 2 for x in numbers if x % 2 == 0]
 
 
-print(squares_of_even_numbers([1, 2, 3, 4, 5]))  # Output: [4, 16]
+print(squares_of_even_numbers([1, 2, 3, 4, 5])) 
 
 
 def count_words_in_file(filename: str) -> int:
